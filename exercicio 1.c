@@ -21,10 +21,10 @@ setlocale(LC_ALL, "portuguese");
         printf("Digite a idade de %s: ", nomes[d]);
         scanf("%d", &idades[d]);
 
-        printf("Digite o peso de %s (em kg): ", nomes[d]);
+        printf("Digite o peso de %s: ", nomes[d]);
         scanf("%f", &pesos[d]);
 
-        printf("Digite a altura de %s (em metros): ", nomes[d]);
+        printf("Digite a altura de %s: ", nomes[d]);
         scanf("%f", &altura[d]);
 
         system("cls");
