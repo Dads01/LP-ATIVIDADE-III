@@ -7,7 +7,7 @@ void main()
 {
 setlocale(LC_ALL, "portuguese");
     
-    char nomes[5][550];
+    char nomes[5][999];
     int idades[5];
     float pesos[5];
     float altura[5];
@@ -21,10 +21,10 @@ setlocale(LC_ALL, "portuguese");
         printf("Digite a idade de %s: ", nomes[d]);
         scanf("%d", &idades[d]);
 
-        printf("Digite o peso de %s (em kg): ", nomes[d]);
+        printf("Digite o peso de %s: ", nomes[d]);
         scanf("%f", &pesos[d]);
 
-        printf("Digite a altura de %s (em metros): ", nomes[d]);
+        printf("Digite a altura de %s: ", nomes[d]);
         scanf("%f", &altura[d]);
 
         system("cls");
